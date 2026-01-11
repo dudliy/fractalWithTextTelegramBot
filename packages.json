@@ -1,0 +1,31 @@
+{
+  "name": "fractalwithtexttelegrambot",
+  "version": "1.0.0",
+  "description": "Telegram bot that generates fractal images with custom text overlay",
+  "main": "fractal-bot.js",
+  "scripts": {
+    "start": "node fractal-bot.js",
+    "dev": "nodemon fractal-bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "fractal",
+    "image",
+    "generator",
+    "canvas"
+  ],
+  "author": "3d@mail.ru",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "canvas": "^2.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
